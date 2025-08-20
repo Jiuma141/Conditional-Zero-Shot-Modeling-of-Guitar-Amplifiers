@@ -55,12 +55,18 @@ It aims to **replicate the sonic characteristics** of real guitar amplifiers whi
 
 ```
 .
-├── datasets/          # Custom Dataset classes (AmpPairDataset, CSVSupToneDataset)
-├── generator/         # FiLM-GCN based generator
-├── toneEncoder/       # Tone encoder implementation
-├── losses/            # Custom loss functions (STFT, spectral)
-├── scripts/           # Training and evaluation scripts
-└── examples/          # Audio demos and case studies
+├── Con_Model.ipynb # Main notebook (conditional model training)
+├── Models.ipynb # Tone encoder / generator experiments
+├── datasets.py # Custom dataset definitions
+├── generator.py # FiLM-GCN generator network
+├── toneEncoder.py # Contrastive tone encoder
+├── losses.py # Loss functions (MRSTFT, spectral, etc.)
+├── helper.py # Utility functions (normalization, matching)
+├── load_data.py # Data loading utilities
+├── split_all_data.py # Dataset split scripts
+├── reverb_test.py # Testing with reverb augmentation
+├── count.py # Data statistics
+└── README.md # Project documentation
 ```
 
 ---
