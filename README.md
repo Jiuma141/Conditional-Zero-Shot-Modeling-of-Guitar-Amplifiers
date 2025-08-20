@@ -65,48 +65,6 @@ It aims to **replicate the sonic characteristics** of real guitar amplifiers whi
 
 ---
 
-## 🔧 Installation
-
-```bash
-git clone https://github.com/your-username/conditional-amp-modeling.git
-cd conditional-amp-modeling
-pip install -r requirements.txt
-```
-
----
-
-## 📖 Usage
-
-### Train Tone Encoder
-
-```bash
-python train_tone_encoder.py --data path/to/csv --epochs 100
-```
-
-### Train Conditional Generator
-
-```bash
-python train_generator.py --train_csv data/train.csv --val_csv data/val.csv \
-    --tone_ckpt checkpoints/tone_encoder.pt --epochs 50
-```
-
-### Inference
-
-```bash
-python inference.py --input dry_guitar.wav --amp example_amp --tone_ref tone.wav
-```
-
----
-
-## 🎧 Audio Examples
-
-| Task         | Example        |
-| ------------ | -------------- |
-| Tone Cloning | [Demo Link](#) |
-| Gain Control | [Demo Link](#) |
-
----
-
 ## 📑 Case Studies
 
 * **Tone Clone:**
@@ -139,7 +97,3 @@ Author: **Jiaming Wang**
 * 🎓 Master of Music & Technology, Carnegie Mellon University
 * ✉️ Email: [jiamingw@cmu.edu](mailto:jiamingw@cmu.edu)
 * 🌐 GitHub: [xhn2333](https://github.com/xhn2333)
-
----
-
-要不要我帮你再写一个**精简版（350字以内的 GitHub description）**，像你之前要的那种简短介绍，放在 repo 的简介和开头？
