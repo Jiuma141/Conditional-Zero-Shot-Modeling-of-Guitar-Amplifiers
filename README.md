@@ -102,4 +102,3 @@ Author: **Jiaming Wang**
 
 * 🎓 Master of Music & Technology, Carnegie Mellon University
 * ✉️ Email: [jiamingw@cmu.edu](mailto:jiamingw@cmu.edu)
-* 🌐 GitHub: [xhn2333](https://github.com/xhn2333)
